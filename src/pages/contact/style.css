@@ -1,0 +1,15 @@
+.logo {
+    height: 30px;
+    width: 30px
+}
+
+.profileImg {
+    width: 250px;
+}
+
+.btn-yellow{
+    background-color: goldenrod;
+    color: white;
+    border: gold;
+    align-items: center;
+}
