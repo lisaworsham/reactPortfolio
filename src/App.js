@@ -8,6 +8,7 @@ import Contact from './pages/contact';
 import Navbar from './components/navbar';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">

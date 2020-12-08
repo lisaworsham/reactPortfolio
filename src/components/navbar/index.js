@@ -9,6 +9,8 @@ import {
   NavLink,
   NavbarText
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import "./style.css";
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,22 +19,30 @@ const Navigation = (props) => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
+      <Navbar color="#452049" dark expand="md" className="navbar">
+        <Link to="/">
         <NavbarBrand href="/">Lisa Worsham</NavbarBrand>
+        </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/">About Me</NavLink>
+              <Link to="/">
+              <NavLink>About Me</NavLink>
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/projects">Projects</NavLink>
+              <Link to="/projects">
+              <NavLink>Projects</NavLink>
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <Link to="/contact">
+              <NavLink>Contact</NavLink>
+              </Link>
             </NavItem>
           </Nav>
-          <NavbarText>Built with React</NavbarText>
+          <NavbarText color="white">Built with React</NavbarText>
         </Collapse>
       </Navbar>
     </div>

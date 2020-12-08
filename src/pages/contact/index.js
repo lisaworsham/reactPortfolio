@@ -21,7 +21,7 @@ const Contact = (props) => {
     });
 
     return (
-        <div>    
+        <div>
             {isDesktopOrLaptop && <>
                 <h3 className="m-5 text-center">Contact Information</h3>
                 <hr className="my-4" />
@@ -37,13 +37,13 @@ const Contact = (props) => {
                         </CardHeader>
                         <CardBody>
                             <Row>
-                                <Col xs="5"><img className="profileImg shadow bg-white rounded mt-3" src={profileImg} alt="profileImg"/></Col>
+                                <Col xs="5"><img className="profileImg shadow bg-white rounded mt-3" src={profileImg} alt="profileImg" /></Col>
                                 <Col className="text-Left m-3">
                                     <CardTitle className="lead text-center font-weight-bold">Software Engineer</CardTitle>
                                     <hr className="m-3" />
-                                    <NavLink href="mailto:lisa.r.hyndman@gmail.com" target="_blank"><img className="logo" src={emailIcon} alt="Logo"/> : Lisa Worsham</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/lisa-worsham-39750145/" target="_blank"><img className="logo" src={linkedInIcon} alt="Logo"/> : Lisa Worsham</NavLink>
-                                    <NavLink href="https://github.com/lisaworsham" target="_blank"><img className="logo" src={githubIcon} alt="Logo"/> : lisaworsham</NavLink>                
+                                    <NavLink href="mailto:lisa.r.hyndman@gmail.com" target="_blank"><img className="logo" src={emailIcon} alt="Logo" /> : Lisa Worsham</NavLink>
+                                    <NavLink href="https://www.linkedin.com/in/lisa-worsham-39750145/" target="_blank"><img className="logo" src={linkedInIcon} alt="Logo" /> : Lisa Worsham</NavLink>
+                                    <NavLink href="https://github.com/lisaworsham" target="_blank"><img className="logo" src={githubIcon} alt="Logo" /> : lisaworsham</NavLink>
                                 </Col>
                             </Row>
                         </CardBody>
@@ -61,18 +61,18 @@ const Contact = (props) => {
                             </Row>
                         </CardHeader>
                         <CardBody>
-                            <Row className="justify-content-center"><img className="profileImg shadow bg-white rounded mt-3" src={profileImg} alt="profileImg"/></Row>
+                            <Row className="justify-content-center"><img className="profileImg shadow bg-white rounded mt-3" src={profileImg} alt="profileImg" /></Row>
                             <Row className="justify-content-center mt-3">
                                 <CardTitle className="lead font-weight-bold">Software Engineer</CardTitle>
                             </Row>
-                            <hr/>
+                            <hr />
                             <Row>
                                 <Col className="text-center">
                                     <Button color="secondary" className="mb-3" href={resume} target="_blank">Resume</Button>
-                                    <NavLink href="mailto:lisa.r.hyndman@gmail.com" target="_blank"><img className="logo" src={emailIcon} alt="Logo"/> : Lisa Worsham</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/lisa-worsham-39750145/" target="_blank"><img className="logo" src={linkedInIcon} alt="Logo"/> : Lisa Worsham</NavLink>
-                                    <NavLink href="https://github.com/lisaworsham" target="_blank"><img className="logo" src={githubIcon} alt="Logo"/> : lisaworsham</NavLink>
-                                </Col>                
+                                    <NavLink href="mailto:lisa.r.hyndman@gmail.com" target="_blank"><img className="logo" src={emailIcon} alt="Logo" /> : Lisa Worsham</NavLink>
+                                    <NavLink href="https://www.linkedin.com/in/lisa-worsham-39750145/" target="_blank"><img className="logo" src={linkedInIcon} alt="Logo" /> : Lisa Worsham</NavLink>
+                                    <NavLink href="https://github.com/lisaworsham" target="_blank"><img className="logo" src={githubIcon} alt="Logo" /> : lisaworsham</NavLink>
+                                </Col>
                             </Row>
                         </CardBody>
                     </Card>
