@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/reactPortfolio/static/css/main.0633c956.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.78fc97ee.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.78fc97ee.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.eb9e8f3f.js",
+    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.eb9e8f3f.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/reactPortfolio/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.df3a3dfc.chunk.js": "/reactPortfolio/static/js/2.df3a3dfc.chunk.js",
+    "static/js/2.df3a3dfc.chunk.js.map": "/reactPortfolio/static/js/2.df3a3dfc.chunk.js.map",
+    "index.html": "/reactPortfolio/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/reactPortfolio/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.0633c956.chunk.css.map": "/reactPortfolio/static/css/main.0633c956.chunk.css.map",
+    "static/js/2.df3a3dfc.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.df3a3dfc.chunk.js.LICENSE.txt",
+    "static/media/crittersitter.0e2f251f.PNG": "/reactPortfolio/static/media/crittersitter.0e2f251f.PNG",
+    "static/media/email-logo.a3cff553.png": "/reactPortfolio/static/media/email-logo.a3cff553.png",
+    "static/media/lisa_worsham.34b82754.JPG": "/reactPortfolio/static/media/lisa_worsham.34b82754.JPG",
+    "static/media/litandwine.443622e6.png": "/reactPortfolio/static/media/litandwine.443622e6.png",
+    "static/media/notetaker.296872d3.PNG": "/reactPortfolio/static/media/notetaker.296872d3.PNG",
+    "static/media/resume.31de07bc.pdf": "/reactPortfolio/static/media/resume.31de07bc.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb9e8f3f.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.df3a3dfc.chunk.js",
+    "static/css/main.0633c956.chunk.css",
+    "static/js/main.78fc97ee.chunk.js"
+  ]
+}
